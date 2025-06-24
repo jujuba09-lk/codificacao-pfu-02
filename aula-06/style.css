@@ -1,0 +1,41 @@
+nav{
+    background-color: lavenderblush;
+}
+ul{
+    list-style-type: none;
+}
+li{
+    font-size: 30px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}  
+div{
+    background-color: thistle;
+}
+
+p{
+    font-family: 'Segoe UI', sans-serif;
+
+}
+#caixa-roxa{
+    background-color: rgb(218, 125, 147);
+    color: rgb(221, 176, 211);
+    width: 200px;
+    height: 300px;
+}
+#caixa-rosa{
+
+     background-color: rgb(206, 82, 150);
+    color: rgb(185, 99, 132);
+    width: 1200px;
+    height: 300px;
+   margin: 20px auto;
+padding: 20px;
+}
+.minicaixa{
+    background-color: rgb(228, 172, 216);
+    font-size: 35px;
+    text-align: center;
+    width: 30%;
+    height: 100%;
+    display: inline-block;
+}
