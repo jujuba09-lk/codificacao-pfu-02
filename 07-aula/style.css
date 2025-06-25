@@ -1,0 +1,31 @@
+body {
+  background-color: khaki;
+  padding: 0px;
+  margin: 0px;
+  text-align: center;
+  background-image: linear-gradient(rgb(253, 253, 151), pink, orange);
+}
+
+#principal {
+  width: 50%;
+  height: 1500px;
+  background-color: lemonchiffon;
+  margin: auto;
+  background-image: url("https://media.tenor.com/uuV5rGCztBcAAAAM/bee-rizz-bee-eyebrow.gif");
+  background-repeat: no-repeat;
+  background-size: 1000px 1500px;
+  background-position: cover;
+  
+}
+#secundario{
+    width: 1000%;
+    height: 2000px;
+    margin: auto;
+    background-color: gold; 
+    background-image: url("https://i.gifer.com/OlR.gif");
+    background-size: auto;
+    background-position: 50%;
+    background-repeat: repeat-x;
+    background-attachment: fixed;
+    
+}
