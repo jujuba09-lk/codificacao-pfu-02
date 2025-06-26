@@ -1,0 +1,26 @@
+body {
+  background-color: rgb(236, 234, 214);
+  padding: auto;
+  margin: auto;
+  text-align: center;
+ 
+}
+
+#UM {
+  width: auto;
+  height: 1500px;
+  background-color: rgb(153, 255, 162);
+  margin: auto;
+  background-size: auto;
+  background-position: cover;
+  
+}
+#DOIS{
+    width: 1000%;
+    height: 800px;
+    margin: auto;
+    background-color: rgb(255, 120, 120); 
+    background-size: auto;
+    background-position: auto;
+    
+}

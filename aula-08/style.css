@@ -1,0 +1,69 @@
+@import url('https://fonts.googleapis.com/css2?family=Bitcount+Grid+Double:wght@100..900&display=swap');
+
+
+
+
+body{
+    background-color: rgb(147, 181, 243);
+    color: rgb(197, 212, 226);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-image: url("https://sm.ign.com/ign_br/screenshot/default/cinnamoroll_zu2z.png") ;
+}
+
+p{
+    background-color: rgb(175, 225, 241);
+    color: rgb(85, 139, 139);
+
+}
+#na-direita{
+    text-align: right;
+}
+
+#na-esquerda{
+    text-align: left;
+}
+
+#no-centro{
+    text-align: center;
+}
+
+#justificado{
+    text-align: justify;
+}
+
+#minusculo{
+    text-transform: lowercase;
+}
+
+
+#maiusculo{
+    text-transform: uppercase;
+}
+ h1{
+    font-size: 80px;
+    font-weight: 800;
+    text-shadow: 5px 5px rgb(150, 150, 224);
+}
+#decorado{
+    text-decoration: overline underline rgb(145, 162, 214);
+    text-decoration: dashed;
+}
+
+#outra-fonte{
+    font-family: Impact, sans-serif;
+    
+}
+
+#fonte-google{
+    font-family: "Bitcount Grid Double", system-ui;
+}
+
+@font-face{
+    font-family: 'DarumadropOne-Regular';
+    src:url("./fontes/DarumadropOne-Regular.ttf")
+}
+
+#fonte-personalizada{
+    font-family: 'DarumadropOne-Regular', sans-serif ;
+    font-size: 50px;
+}
