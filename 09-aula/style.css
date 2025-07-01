@@ -1,0 +1,81 @@
+body{
+    background-color: rgb(185, 109, 128);
+    height: 2000px;
+}
+
+.pai{
+    width: 200px;
+    height: 200px;
+    
+}
+
+.filho{
+    width: 50px;
+    height: 50px;
+  
+}
+#p-estatico{
+    background-color: coral;
+    position: static;
+}
+
+#f-estatico{
+    background-color: firebrick;
+    position: static;
+}
+
+#p-fixo{
+    background-color: aliceblue;
+    position: fixed;
+    bottom: 30px;
+    right: 80px
+   
+}
+
+#f-fixo{
+    background-color: lightpink;
+}
+
+#p-stick{
+    background-color: lightcoral;
+    width: 1000px;
+    height: 1000px;
+}
+
+#f-stick{
+    background-color: darksalmon;
+    position: sticky;
+    top: 50%;
+    left: 50%;
+}
+
+#p-relative{
+    background-color: lavender;
+}
+
+#f-relative{
+    background-color: lightgoldenrodyellow;
+    position: relative;
+    left: 80px;
+    top: 50%;
+}
+#p-absolute{
+   background-color: plum;
+   position: static;
+}
+
+#f-absolute{
+    background-color: palevioletred;
+    position: absolute;
+    top: 100px;
+}
+#p-absolute-relative{
+    background-color: thistle;
+    position: relative;
+}
+
+#f-absolute-com-pai{
+    background-color: violet;
+    position: absolute;
+    top: 100x;
+}  
