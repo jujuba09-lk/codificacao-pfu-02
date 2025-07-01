@@ -1,0 +1,40 @@
+body{
+    background-color: darkseagreen;
+    height: 2000px;
+    margin: 0px;
+    padding: 0px;
+}
+
+.menu{
+    background-color: rgb(181, 231, 181);
+    width: 100%;
+    height: 150px;
+}
+
+#menu1{
+    position: sticky;
+    background-color: rgb(155, 228, 194);
+    top: 5px;
+}
+
+
+#menu1 > ul{
+   list-style: none;
+   text-align: center;
+   margin: auto;
+   padding: auto;
+}
+
+#menu1 > ul > il{
+    color: aliceblue;
+    font-size: 30px;
+    width: 200px;
+    height: 50px;
+    background-color: rgb(94, 133, 120);
+    display: inline-block;
+    line-height: 50px;
+}
+
+#menu1 > ul > il:hover{
+    color: aquamarine;
+    background-color: beige;
