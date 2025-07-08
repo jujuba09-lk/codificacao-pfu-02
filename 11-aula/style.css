@@ -1,0 +1,193 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+body{
+    background-color: lavender;
+}
+
+header{
+    position: sticky;
+    top: 0px;
+}
+
+#navegacao{
+    width: 80%;
+    background-color: rgb(147, 106, 165);
+    margin-right: auto;
+    margin-left: auto;
+    padding: 15px;
+    color: rgb(223, 214, 231);
+    font-size: 30px;
+    overflow: hidden;
+    position: sticky;
+    top: 0px;
+}
+
+.simbulo{
+   
+    font-size: 40px;
+    
+ 
+}
+
+#item-menu{
+    list-style: none;
+    float: right;
+}
+
+li{
+    display: inline-block;
+    margin-left: 15px;
+    padding: 5px;
+     
+}
+
+li:hover{
+    color: rgb(203, 195, 221);
+    background-color: rgb(191, 163, 248);
+    cursor: pointer;
+    border-radius: 15px;
+    transform: scaleX(1.5);
+    transform: scaleY(1) ;
+   
+}
+
+#logo{
+
+    float: left;
+}
+
+#media screen and(max-widht:900px){
+            body{
+               background-color: rgb(147, 106, 165);
+            
+            }
+        }
+    
+            
+            #navegacao{
+                width: 90%;
+                background-color: lightpink;
+                padding: 5px;
+                font-size: 25px;
+            }
+            #log{
+                font-size: 35px;
+            }
+           .simbulo{
+           
+            font-size: 40px;
+          
+           }
+           #item-menu{
+            float: none;
+            text-align: center;
+            font-size: 30px;
+            margin-left: 7px;
+           }
+
+         li{
+            display: inline-block;
+            margin-left: 15px;
+            padding: 5px;
+         }
+
+
+
+           li:hover{
+            color:darkmagenta
+
+           }
+
+           #logo{
+            float: left;
+           }
+
+           main{
+            background-color: rgb(134, 99, 134);
+            height: 2000px;
+            width: 80%;
+            margin-left: auto;
+            margin-right: auto;
+            padding: 10px 15px;
+            font-size: 30px;
+            color: rgb(148, 93, 153);
+           }
+
+           #bloco{
+            background-color: rgb(189, 149, 189);
+            height: 200px;
+            width: 100%;
+            display: block;
+            text-align: center;
+            line-height: 200px;
+            margin-top: 20px;
+           }
+
+           #linha-bloco{
+            background-color: rgb(178, 114, 184);
+            margin-top: 10px;
+            text-align: center;
+            color: rgb(131, 81, 141);
+            font-weight: 900;
+            padding: 10px;
+           }
+            
+           .mini-bloco{
+              background-color: rgb(139, 94, 133);
+              width: 30%;
+              margin-top: 5px;
+              display: inline-block;
+              height: 20px;
+              line-height:  200px;   
+              width: 50%;
+              display: inline;    
+           }
+
+           #linha{
+            background-color: rgb(86, 74, 92);
+            padding: 10px;
+            text-align: center;
+            margin-top: 10px;
+            color: rgb(122, 96, 156);
+           }
+
+           
+           @media screen and (max-width: 500px) {
+            body{
+                background-color: aliceblue;
+                padding: 10px;
+                text-align: 10px;
+                margin-top:  10px;
+                color: rgb(116, 101, 131);
+            }
+        
+
+           }   #navegacao{
+            width: 100%;
+            background-color: blueviolet;
+            padding: 5px;
+           }
+           #logo{
+            font-size: 40px;
+            text-align: center;
+           }
+           .simbulo{
+            font-size: 50px;
+            float: none;
+           }
+           li{
+            display: block;
+            width: 50%;
+            margin-top: 5px;
+            margin-left: auto;
+            margin-right: 25px;
+           }
+
+           main{
+            width: 100%;
+            padding: 0px;
+           }
+
+
