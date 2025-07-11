@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=Bitcount+Grid+Double:wght@100..900&display=swap');
+
+
+
+
+body{
+    background-color: rgb(202, 220, 253);
+    color: rgb(197, 212, 226);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-image: url("https://sm.ign.com/ign_br/screenshot/default/cinnamoroll_zu2z.png") ;
+}
+
+p{
+    background-color: rgb(253, 255, 255);
+    color: rgb(85, 122, 122);
+    height: 180px;
+    font-size: 40px;
+
+}
+
+div{
+    color: rgb(0, 0, 0);
+    line-height: 20px;
+    margin: auto;
+    list-style: 200px;
+}
+
+#foto{
+
+    text-align: center;
+
+    
+}
+
+h1{
+      font-size: 80px;
+      font-weight: 800;
+      text-shadow: 5px 5px rgb(111, 172, 167);
+}
+
+
+   
+    
